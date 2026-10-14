@@ -1,0 +1,26 @@
+{
+  "name": "postman-api-testing",
+  "version": "1.0.0",
+  "description": "Advanced Postman API test suite run with Newman: chaining, JWT & cookie auth, schema contracts, workflow loops, business-logic and data-driven tests.",
+  "private": true,
+  "scripts": {
+    "test": "newman run collections/api-testing-showcase.postman_collection.json -e environments/demo.postman_environment.json -r cli,htmlextra,junit --reporter-htmlextra-export reports/report.html --reporter-htmlextra-title \"API Testing Showcase\" --reporter-htmlextra-browserTitle \"API Tests\" --reporter-junit-export reports/junit.xml",
+    "test:smoke": "newman run collections/api-testing-showcase.postman_collection.json -e environments/demo.postman_environment.json --folder \"01 Smoke & Health\"",
+    "test:auth": "newman run collections/api-testing-showcase.postman_collection.json -e environments/demo.postman_environment.json --folder \"02 Authentication\"",
+    "test:e2e": "newman run collections/api-testing-showcase.postman_collection.json -e environments/demo.postman_environment.json --folder \"03 Booking Lifecycle (E2E chain)\"",
+    "test:negative": "newman run collections/api-testing-showcase.postman_collection.json -e environments/demo.postman_environment.json --folder \"04 Negative & Authorization\"",
+    "test:data": "newman run collections/api-testing-showcase.postman_collection.json -e environments/demo.postman_environment.json --folder \"07 Data-Driven Bookings\" -d data/bookings.csv -r cli,htmlextra --reporter-htmlextra-export reports/data-driven.html"
+  },
+  "keywords": [
+    "postman",
+    "newman",
+    "api-testing",
+    "test-automation",
+    "qa"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "newman": "^6.2.3",
+    "newman-reporter-htmlextra": "^1.23.1"
+  }
+}

@@ -1,0 +1,6 @@
+firstname,lastname,totalprice,depositpaid,checkinOffset,nights,additionalneeds
+Sean,O'Brien,120,true,10,3,Breakfast
+José,García-Núñez,450,false,30,7,Sea view
+Li,Wei,1,true,1,1,None
+Alexandria-Catherine,Montgomery-Worthington,99999,true,90,21,Late checkout
+Priya,Sharma,0,false,5,2,Vegetarian meals
