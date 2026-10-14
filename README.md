@@ -79,7 +79,7 @@ if (nextSkip < body.total) {
 ## 🚀 Run it
 
 ### In Postman
-
+[![Run in Postman](https://img.shields.io/badge/Postman-Public%20Workspace-FF6C37?logo=postman&logoColor=white)](https://www.postman.com/restless-eclipse-769270/api-testing-showcase/)
 1. **Import:** `collections/api-testing-showcase.postman_collection.json` and `environments/demo.postman_environment.json`
 2. Select the **Public Demo APIs** environment.
 3. Right-click the collection → **Run collection**. Run folders in order.
