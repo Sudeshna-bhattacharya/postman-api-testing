@@ -1,7 +1,8 @@
 # Postman API Testing Showcase
 
-[![API Tests](https://github.com/sudeshna-bhattacharya/postman-api-testing/actions/workflows/api-tests.yml/badge.svg)](https://github.com/sudeshna-bhattacharya/postman-api-testing/actions/workflows/api-tests.yml)
+[![API Tests](https://github.com/YOUR-USERNAME/postman-api-testing/actions/workflows/api-tests.yml/badge.svg)](https://github.com/sudeshna-bhattacharya/postman-api-testing/actions/workflows/api-tests.yml)
 [![Report](https://img.shields.io/badge/Newman-Live%20HTML%20Report-FF6C37?logo=postman&logoColor=white)](https://sudeshna-bhattacharya.github.io/postman-api-testing/)
+[![Run in Postman](https://img.shields.io/badge/Postman-Public%20Workspace-FF6C37?logo=postman&logoColor=white)](https://www.postman.com/restless-eclipse-769270/api-testing-showcase/)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white)
 ![Newman](https://img.shields.io/badge/Newman-CLI-FF6C37?logo=postman&logoColor=white)
 
